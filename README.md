@@ -18,7 +18,7 @@ jobs:
     name: CI/CD
     runs-on: [self-hosted, Linux, X64]
     container:
-      image: ghcr.io/rick-liruixin/miniprogram-ci:v1.0.0
+      image: ghcr.io/ilaipi/miniprogram-ci:v1.0.0
       volumes:
         - /path/to/private/keys:/private-keys
     steps:
