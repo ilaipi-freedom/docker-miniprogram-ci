@@ -1,4 +1,4 @@
-# ghcr.io/rick-liruixin/miniprogram-ci
+# ghcr.io/ilaipi-freedom/miniprogram-ci
 
 ## How to use in GitHub Actions
 
@@ -18,7 +18,7 @@ jobs:
     name: CI/CD
     runs-on: [self-hosted, Linux, X64]
     container:
-      image: ghcr.io/ilaipi/miniprogram-ci:v1.0.0
+      image: ghcr.io/ilaipi-freedom/miniprogram-ci:v1.0.0
       volumes:
         - /path/to/private/keys:/private-keys
     steps:
